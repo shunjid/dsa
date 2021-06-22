@@ -7,7 +7,7 @@ export class NumbersCollection implements Sortable {
     return this.data.length;
   }
 
-  public compare(leftIndex: number, rightIndex: number): boolean {
+  public isGreaterThan(leftIndex: number, rightIndex: number): boolean {
     return this.data[leftIndex] > this.data[rightIndex];
   }
 
